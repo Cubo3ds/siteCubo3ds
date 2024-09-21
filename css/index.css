@@ -1,0 +1,69 @@
+
+.imgUser {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: bottom;
+}
+#baderola {
+    width: 100px;
+    height: 100px;
+    background-color: #21618c; /* Color rojo oscuro de la banderola */
+    margin: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%); /* Forma de la banderola con punta */
+}
+.emblema {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Color dorado de la estrella */
+    font-size: 40px; /* Tamaño de la estrella */
+    font-weight: bold;
+}
+.topNavBar {
+    margin-top: -48px !important;
+}
+.listExpLab {
+    list-style: none !important;
+    padding-left: 0px;
+}
+.fontWeitBold{
+    font-weight:bold;
+}
+.fontWeitBoldClaro {
+    margin-top: -15px !important;
+    font-weight: bold; /* Negritas */
+    color: #707b7c;
+}
+.textJustify{
+    text-align:justify !important;
+}
+
+.estrellas .estrella {
+    font-size: 24px;
+    color: lightgray; /* Color para estrellas vacías */
+}
+
+    .estrellas .estrella.llena {
+        color: #549bcb; /* Color para estrellas llenas */
+    }
+.btn-floating {
+    position: fixed;
+    bottom: 20px; /* Distancia desde el borde inferior */
+    right: 20px; /* Distancia desde el borde derecho */
+    z-index: 1050; /* Asegura que los botones floten sobre otros elementos */
+    width: 60px; /* Ancho del botón */
+    height: 60px; /* Altura del botón */
+    border-radius: 50% !important; /* Hace el botón redondo */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+    .btn-floating:nth-of-type(2) {
+        bottom: 90px; /* Ajusta la distancia entre los botones */
+    }
+
