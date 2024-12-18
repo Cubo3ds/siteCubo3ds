@@ -67,3 +67,7 @@
         bottom: 90px; /* Ajusta la distancia entre los botones */
     }
 
+.progress-bar{
+    background-color: #549bcb !important;
+} 
+
